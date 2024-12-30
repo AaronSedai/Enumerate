@@ -1,0 +1,17 @@
+  // create a list
+newList = ["today", "tomorrow", "yesterday", "the future", "the past", "never"]
+
+  // variable to specify an index
+listName = newList.index("tomorrow")
+
+  // for loop lists all elements in the list by their index
+for x, element in enumerate(newList):
+    print(x, element)
+
+  // output to identify specific indexes in the list
+print("")
+print("index 4 is", newList[4])
+print("")
+print("the element at index 5 is", newList[5])
+print("")
+print("The element 'tomorrow' is located at index", listName)
